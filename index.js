@@ -1,8 +1,2 @@
-const { Client } = require('discord.js')
-const bot = new Client({
-    disableEveryone: true
-})
-const config = require('./config.json')
-
-
-bot.login(config.token)
+// importação do client
+const Client = require('../src/base/Client.js')
